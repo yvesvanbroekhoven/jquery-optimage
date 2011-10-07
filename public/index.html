@@ -17,9 +17,9 @@
   <script src="javascripts/jquery-optimage.min.js"></script>
   
   <script type="text/javascript" charset="utf-8">
-    $(function(){
+    window.onload = function(){
       $("img").optimage();
-    });
+    };
     window.onresize = function(){
       $("img").optimage();
     };
