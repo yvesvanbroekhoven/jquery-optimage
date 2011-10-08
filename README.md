@@ -19,12 +19,12 @@ images
 |- 1
    |
    |- small
-        |
-        |- img.jpg
+   |    |
+   |    |- img.jpg
    |
    |- medium
-        |
-        |- img.jpg
+   |    |
+   |    |- img.jpg
    |
    |- large
         |
