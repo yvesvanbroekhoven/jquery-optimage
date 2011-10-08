@@ -11,6 +11,26 @@ I've now created 3 different image sizes:
 * medium (max width 800px)
 * large (max width whatever you want :)
 
+My folder structure is based on the RoR Paperclip way:
+
+```
+images
+|
+|- 1
+   |
+   |- small
+        |
+        |- img.jpg
+   |
+   |- medium
+        |
+        |- img.jpg
+   |
+   |- large
+        |
+        |- img.jpg
+```
+
 ## Example use
 
 ```javascript
