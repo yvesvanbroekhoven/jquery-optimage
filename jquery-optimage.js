@@ -1,11 +1,12 @@
 /*
  * jQuery optimage
- * A plugin to load a bigger image if the viewport is big enough,
- * following the filosophy that you don't load if it's not necessary
+ * A plugin to load a bigger image if the viewport (or parent) is big enough.
+ * following the filosophy that you only load the smallest, and load more if it's necessary
  *
  * Author: Yves Van Broekhoven
  * Created at: 2011-10-08
  */
+ 
 (function($){
   
   var clb
@@ -60,10 +61,7 @@
         _loadImage.call(this, "large");
       } else if (container_width > 400) {
         _loadImage.call(this, "medium");
-      } else {
-        _loadImage.call(this, "small");
       }
-      
       
     });
     
